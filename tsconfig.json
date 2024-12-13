@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/layout.jsx", "src/app/page.jsx", "src/app/components/AnimatedBackground.jsx", "src/app/components/Contact.jsx", "src/app/components/CustomCursor.jsx", "src/app/components/Intro.jsx", "src/app/components/Navigation.jsx", "src/app/components/Projects.jsx", "src/app/components/Resume.jsx", "src/app/components/Skills.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
